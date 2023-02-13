@@ -6,10 +6,13 @@ import About from './components/About';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="">
+    <BrowserRouter>
+    <div className=" font-nunito ">
     <Navbar></Navbar>
     <Home></Home>
     <About></About>
@@ -17,6 +20,7 @@ function App() {
     <Contact></Contact>
     <Footer></Footer>
     </div>
+    </BrowserRouter>
   );
 }
 

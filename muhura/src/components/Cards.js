@@ -5,7 +5,7 @@ import three from "../images/girl.png"
 
 const Cards = () => {
   return (
-    <div className='w-full bg-[#606642]  py-[4rem] px-4 '>
+    <div id='cards' className='w-full bg-[#606642]  py-[4rem] px-4 '>
 
 <div className='max-w-[1240px] mx-auto grid md:grid-cols-3  gap-8'>
     <div className='w-full shadow-xl flex flex-col p-14 bg-white rounded-lg hover:scale-90 duration-300 '>
@@ -34,7 +34,7 @@ mention how I enjoyed food at Lycee and all the time, I always looked forward to
   I graduated from Lycee and I am currently a marketing director. 
   Through Lycee's debate club, I learnt to be confident and share my 
   opinions. Through business club, I gained skills that are now strongly contributing 
-  to my career. I appreciate the opportunity to have attended Lycee because I gained useful connections
+  to my career. I appreciate the opportunity to have attended Lycee because I gained useful connections.
 </p>
     </div>
     </div>       
